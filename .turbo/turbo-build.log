@@ -1,19 +1,18 @@
 
-
 > @onegenui/document-parser@0.0.1 build /Users/giulioleone/Sviluppo/genUi/json-render/packages/document-parser
 > tsup src/index.ts --format cjs,esm --dts
 
-[34mCLI[39m Building entry: src/index.ts
-[34mCLI[39m Using tsconfig: tsconfig.json
-[34mCLI[39m tsup v8.5.1
-[34mCLI[39m Target: es2022
-[34mCJS[39m Build start
-[34mESM[39m Build start
-[32mESM[39m [1mdist/index.js [22m[32m3.31 KB[39m
-[32mESM[39m ⚡️ Build success in 15ms
-[32mCJS[39m [1mdist/index.cjs [22m[32m5.07 KB[39m
-[32mCJS[39m ⚡️ Build success in 15ms
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.5.1
+CLI Target: es2022
+CJS Build start
+ESM Build start
+ESM dist/index.js 3.31 KB
+ESM ⚡️ Build success in 12ms
+CJS dist/index.cjs 5.07 KB
+CJS ⚡️ Build success in 12ms
 DTS Build start
-DTS ⚡️ Build success in 809ms
+DTS ⚡️ Build success in 899ms
 DTS dist/index.d.cts 793.00 B
 DTS dist/index.d.ts  793.00 B
