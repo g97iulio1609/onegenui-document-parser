@@ -1,0 +1,25 @@
+{
+    "name": "@onegenui/document-parser",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "description": "Document parsing utilities for OneGenUI",
+    "scripts": {
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+        "clean": "rm -rf dist .turbo node_modules"
+    },
+    "dependencies": {
+        "mammoth": "^1.6.0",
+        "pdf-parse": "^1.1.1",
+        "xlsx": "^0.18.5",
+        "officeparser": "^4.1.1"
+    },
+    "devDependencies": {
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.3",
+        "@types/node": "^20.10.6",
+        "@types/pdf-parse": "^1.1.4"
+    }
+}
