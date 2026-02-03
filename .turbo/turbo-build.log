@@ -9,10 +9,10 @@ CLI Target: es2022
 CJS Build start
 ESM Build start
 CJS dist/index.cjs 5.07 KB
-CJS ⚡️ Build success in 11ms
+CJS ⚡️ Build success in 47ms
 ESM dist/index.js 3.31 KB
-ESM ⚡️ Build success in 11ms
+ESM ⚡️ Build success in 47ms
 DTS Build start
-DTS ⚡️ Build success in 406ms
+DTS ⚡️ Build success in 779ms
 DTS dist/index.d.cts 793.00 B
 DTS dist/index.d.ts  793.00 B
