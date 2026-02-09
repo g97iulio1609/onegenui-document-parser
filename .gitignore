@@ -39,3 +39,4 @@ logs/
 
 # TypeScript
 *.tsbuildinfo
+.turbo/turbo-build.log
